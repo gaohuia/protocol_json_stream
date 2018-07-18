@@ -1,0 +1,21 @@
+{
+    "name": "jiaozi/protocol_json_stream",
+    "type": "library",
+    "require": {
+        "workerman/workerman": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "zhenxing",
+            "email": "www@zeroplace.cn"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "pjs\\" : "src/"
+        }
+    }
+}
